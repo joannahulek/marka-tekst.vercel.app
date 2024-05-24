@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Nav } from 'react-bootstrap';
 import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 const CardWithTabs: React.FC = () => {
     const [activeTab, setActiveTab] = useState('#marka');
@@ -43,7 +44,7 @@ const CardWithTabs: React.FC = () => {
                 {activeTab === '#about' && <div>Treść dla O mnie</div>}
                 {activeTab === '#copywriting' && <div>Treść dla Copywriting</div>}
                 {activeTab === '#portfolio' && <div>Treść dla Portfolio {Portfolio()}</div>}
-                {activeTab === '#contact' && <div>Treść dla Kontakt</div>}
+                {activeTab === '#contact' && <div>Treść dla Kontakt {Contact()}</div>}
             </Card.Body>
         </Card>
     );
