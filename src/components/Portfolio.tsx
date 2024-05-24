@@ -15,6 +15,8 @@ return (
                     overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
                     this with custom CSS or overriding our default variables. It's also worth noting that just about any
                     HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <br></br>
+                    <a href="#" target="_blank">Link</a>
                 </div>
             </div>
         </div>
@@ -33,6 +35,7 @@ return (
                     modify any of this with custom CSS or overriding our default variables. It's also worth noting that
                     just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
                     overflow.
+                    <a href="#" target="_blank">Link</a>
                 </div>
             </div>
         </div>
