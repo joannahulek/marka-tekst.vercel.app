@@ -1,33 +1,52 @@
+import React, { useState, useEffect } from 'react';
+import { Card, Nav } from 'react-bootstrap';
 import Portfolio from "./Portfolio";
 
-export default function Menu(){
+const CardWithTabs: React.FC = () => {
+    const [activeTab, setActiveTab] = useState('#marka');
+
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+            setActiveTab(hash);
+        }
+    }, []);
+
+    const handleSelect = (selectedTab: string) => {
+        setActiveTab(selectedTab);
+        window.location.hash = selectedTab;
+    };
+
     return (
-        <div className="card text-center">
-            <div className="card-header">
-                <ul className="nav nav-tabs card-header-tabs">
-                    <li className="nav-item">
-                        <a className="nav-link active" aria-current="true" href="#marka">MarKa Tekst</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#about">O mnie</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#copywriting">Copywriting</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#contact">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-            <div className="card-body">
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
-                <div id="portfolio">{Portfolio()}</div>
-            </div>
-        </div>
-    )
+        <Card>
+            <Card.Header>
+                <Nav variant="tabs" activeKey={activeTab}>
+                    <Nav.Item>
+                        <Nav.Link href="#marka" onClick={() => handleSelect('#marka')}>MarKa Tekst</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#about" onClick={() => handleSelect('#about')}>O mnie</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#copywriting" onClick={() => handleSelect('#copywriting')}>Copywriting</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#portfolio" onClick={() => handleSelect('#portfolio')}>Portfolio</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#contact" onClick={() => handleSelect('#contact')}>Kontakt</Nav.Link>
+                    </Nav.Item>
+                </Nav>
+            </Card.Header>
+            <Card.Body>
+                {activeTab === '#marka' && <div>Treść dla MarKa Tekst</div>}
+                {activeTab === '#about' && <div>Treść dla O mnie</div>}
+                {activeTab === '#copywriting' && <div>Treść dla Copywriting</div>}
+                {activeTab === '#portfolio' && <div>Treść dla Portfolio {Portfolio()}</div>}
+                {activeTab === '#contact' && <div>Treść dla Kontakt</div>}
+            </Card.Body>
+        </Card>
+    );
 }
+
+export default CardWithTabs;

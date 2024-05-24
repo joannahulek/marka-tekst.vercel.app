@@ -1,11 +1,16 @@
 import React from 'react';
-import './App.css';
-import Menu from "./components/Menu";
+import CardWithTabs from './components/Menu';
+import { Container } from 'react-bootstrap';
 
-function App() {
-  return (
-        <Menu />
-  );
+const App: React.FC = () => {
+    return (
+        <div>
+            <Container>
+                <h1>Strona Marty</h1>
+                <CardWithTabs />
+            </Container>
+        </div>
+    );
 }
 
 export default App;
