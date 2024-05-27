@@ -14,7 +14,7 @@ export default function Contact(){
                 <label htmlFor="exampleFormControlTextarea1" className="form-label">Treść</label>
                 <textarea className="form-control" id="exampleFormControlTextarea1"></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">Wyślij</button>
+            <button type="submit" className="btn btn-light">Wyślij</button>
 
         </>
     )
