@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/marka/static/css/main.36ffff30.css",
-    "main.js": "/marka/static/js/main.8946cfb6.js",
+    "main.css": "/marka/static/css/main.42d6612c.css",
+    "main.js": "/marka/static/js/main.4b85b95c.js",
     "static/js/453.86adb464.chunk.js": "/marka/static/js/453.86adb464.chunk.js",
     "index.html": "/marka/index.html",
-    "main.36ffff30.css.map": "/marka/static/css/main.36ffff30.css.map",
-    "main.8946cfb6.js.map": "/marka/static/js/main.8946cfb6.js.map",
+    "main.42d6612c.css.map": "/marka/static/css/main.42d6612c.css.map",
+    "main.4b85b95c.js.map": "/marka/static/js/main.4b85b95c.js.map",
     "453.86adb464.chunk.js.map": "/marka/static/js/453.86adb464.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36ffff30.css",
-    "static/js/main.8946cfb6.js"
+    "static/css/main.42d6612c.css",
+    "static/js/main.4b85b95c.js"
   ]
 }
