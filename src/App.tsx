@@ -1,15 +1,15 @@
 import React from 'react';
-import CardWithTabs from './components/Menu';
 import { Container } from 'react-bootstrap';
+import Menu from "./components/Menu";
+import Hero from "./components/Hero";
+
 
 const App: React.FC = () => {
     return (
-        <div>
             <Container>
-                <h1>Strona Marty</h1>
-                <CardWithTabs />
+                <Menu />
+                <Hero />
             </Container>
-        </div>
     );
 }
 
