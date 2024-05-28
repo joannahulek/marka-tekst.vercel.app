@@ -1,4 +1,3 @@
-@import url('colors.css');
 
 body {
   margin: 0;
@@ -12,28 +11,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-a {
-  color: var(--mainDark);
-  text-decoration: none;
-}
-a:hover{
-  color: var(--mainAccent);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: var(--mainAccent);
-}
-
-Card.Header{
-  background-color: var(--mainBright);
-}
-
-.nav-tabs .nav-link{
-  color: var(--mainDark);
-}
-
-.nav-tabs .nav-link:hover{
-  color: var(--mainAccent);
 }
