@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-const Menu: React.FC = () =>{
+export default function Menu(){
 
     const [activeTab, setActiveTab] = useState('#marka');
 
@@ -7,8 +7,7 @@ const Menu: React.FC = () =>{
         setActiveTab(selectedTab);
     };
 
-
-    return (
+    return [(
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,10 +41,8 @@ const Menu: React.FC = () =>{
                                aria-disabled="true">tel:+48123456789</a>
                         </li>
                     </ul>
-                    </div>
+                </div>
             </div>
         </nav>
-    )
+    ), activeTab]
 }
-
-export default Menu

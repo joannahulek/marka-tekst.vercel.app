@@ -13,15 +13,12 @@ import Alert from "./components/Alert";
 
 const App: React.FC = () => {
 
-    const [activeTab, setActiveTab] = useState('#marka');
+    const [menuHTML, activeTab] = Menu();
 
-    const handleSelect = (selectedTab: string) => {
-        setActiveTab(selectedTab);
-    };
 
     return (
             <Container>
-                <Menu />
+                {menuHTML}
                 <Hero />
                 <div className="container">
                     {activeTab === '#marka' && <div id="marka"><MarKa /></div>}
