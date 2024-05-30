@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Container } from 'react-bootstrap';
 import Menu from "./components/Menu";
 import Hero from "./components/Hero";
@@ -8,8 +8,7 @@ import Copywriting from "./components/Copywriting";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
-
+import Alert from "./components/Alert";
 
 
 const App: React.FC = () => {
@@ -32,6 +31,7 @@ const App: React.FC = () => {
                     {activeTab === '#contact' && <div id="contact"><Contact /></div>}
                 </div>
                 <Footer />
+                <Alert />
             </Container>
     );
 }
