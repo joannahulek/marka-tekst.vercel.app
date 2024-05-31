@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 export default function Menu(){
 
     const [activeTab, setActiveTab] = useState('#marka');
@@ -6,6 +6,13 @@ export default function Menu(){
     const handleSelect = (selectedTab: string) => {
         setActiveTab(selectedTab);
     };
+
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+            setActiveTab(hash);
+        }
+    }, []);
 
     return [(
         <nav className="navbar navbar-expand-lg">

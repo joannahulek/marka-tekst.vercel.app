@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import Menu from "./components/Menu";
 import Hero from "./components/Hero";
@@ -14,7 +14,6 @@ import Alert from "./components/Alert";
 const App: React.FC = () => {
 
     const [menuHTML, activeTab] = Menu();
-
 
     return (
             <Container>
