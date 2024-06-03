@@ -6,15 +6,24 @@ export default function About() {
         <>
             <h2>O mnie</h2>
             <p>
-                Jestem copywriterem z ponad 10-letnim doświadczeniem, specjalizującym się w tworzeniu treści
-                zoptymalizowanych pod kątem wyszukiwarek internetowych, szczególnie Google. Tworzę zarówno krótsze, jak
-                i dłuższe formy pisemne na zamówienie. Współpracuję z międzynarodowymi markami, takimi jak Decathlon i
-                Medicover, agencjami marketingowymi, małymi i średnimi przedsiębiorstwami oraz klientami indywidualnymi.
-                Przygotowuję profesjonalne posty do mediów społecznościowych, dostosowane do celów marketingowych firmy
-                oraz optymalizowane pod kątem słów kluczowych i tagów.
+                Copywritingiem zajmuje się od 2017 r. Przez ten czas stale rozwijam swój warsztat, aby przygotowywane treści były przynosiły realną korzyść dla Twojego biznesu. Teksty są przyjazne dla użytkownika, a jednocześnie zoptymalizowane pod kątem wymagań SEO, co naturalnie wspiera proces pozycjonowania strony internetowej.
             </p>
             <p>
-                Jednocześnie rozwijam swoje umiejętności w zakresie UX/UI Design.
+                Specjalizuję się w tworzeniu treści, takich jak:
+                <ul>
+                    <li>content marketing (tj. artykuły eksperckie, wpisy na blogi, poradniki)</li>
+                    <li>opisy produktów</li>
+                    <li>opisy kategorii</li>
+                    <li>artykuły sponsorowane</li>
+                    <li>treści na strony www</li>
+                </ul>
+                Wspomagam także prowadzenie profili firmowych na FB.
+            </p>
+            <p>
+                Cenię sobie wiedzę, dlatego stale się rozwijam poszerzając swoje umiejętności w zakresie tematów związanych z SEO czy pozycjonowaniem lokalnym. Wiedza ta sprawia, że przygotowywane teksty doskonale wspierają i uzupełniają Twoje cele biznesowe.
+            </p>
+            <p>
+                W ostatnim czasie wiele czasu i uwagi poświęcam na naukę UX/UI.
             </p>
 
             <Certificates/>

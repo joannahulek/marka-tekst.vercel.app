@@ -4,6 +4,8 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 export default function Certificates(){
     return(
+        <>
+            <h2>Certificaty</h2>
         <div className="container overflow-hidden text-center">
             <div className="row gy-5">
                 <div className="col-6">
@@ -28,5 +30,6 @@ export default function Certificates(){
                 </div>
             </div>
         </div>
+        </>
     )
 }

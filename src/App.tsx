@@ -22,7 +22,7 @@ const App: React.FC = () => {
                 <div className="container">
                     {activeTab === '#marka' && <div id="marka"><MarKa /></div>}
                     {activeTab === '#about' && <div id="about"><About /></div>}
-                    {activeTab === '#copywriting' && <div id="copywriting"><Copywriting /></div>}
+                    {activeTab === ('#copywriting') && <div id="copywriting"><Copywriting /></div>}
                     {activeTab === '#portfolio' && <div id="portfolio"><Portfolio /></div>}
                     {activeTab === '#contact' && <div id="contact"><Contact /></div>}
                 </div>

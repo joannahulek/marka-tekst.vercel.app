@@ -16,3 +16,11 @@ code {
 h2{
   padding-bottom: 20px;
 }
+
+p, h6{
+  text-align: justify;
+}
+
+card-link{
+  text-decoration: none;
+}

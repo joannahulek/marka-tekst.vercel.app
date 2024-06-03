@@ -41,7 +41,7 @@ export default function Menu(){
                             <a className="nav-link" href="#portfolio"
                                onClick={() => handleSelect('#portfolio')}>Portfolio</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item visually-hidden">
                             <a className="nav-link disabled"
                                href="https://www.linkedin.com/in/marta-kasprzyk-648540150/">Blog</a>
                         </li>
