@@ -9,7 +9,7 @@ export default function Copywriting() {
                 {items.map((item: OfferItem) => (
                     <div className="col">
                         <div className="card h-100">
-                            <a href={item.id} className="text-decoration-none">
+                            <a href={'#'+item.id} className="text-decoration-none">
                                 <div className="card-body">
                                     <h5 className="card-title text-uppercase">{item.label}</h5>
                                     <h6 className="card-subtitle mb-2 text-body-secondary">{item.headline}</h6>
