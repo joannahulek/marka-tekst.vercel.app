@@ -10,7 +10,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Alert from "./components/Alert";
 
-
 const App: React.FC = () => {
 
     const [menuHTML, activeTab] = Menu();
@@ -33,3 +32,7 @@ const App: React.FC = () => {
 }
 
 export default App;
+
+function AppNav(){
+
+}
