@@ -1,49 +1,69 @@
+interface Props{
+    company:string []
+    mail:string [][]
+    phone:string [][]
+    linkedin:string []
+    address:string[]
+    ceidg:string[]
+}
 export default function Contact(){
     return(
         <>
-            <h2>Docelowo będzie formularz</h2>
-            <p>(np. taki jak niżej)</p>
-            <p>Ale póki co, proponuję po prostu wpisać dane kontaktowe i dodać ikonki SVG:</p>
+            <h2>Marka Tekst Marta Kasprzyk</h2>
             <div>
-                <a
-                    href="https://www.linkedin.com/in/marta-kasprzyk-648540150/" target="_blank" aria-label="LinkedIn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
-                         className="bi bi-linkedin" viewBox="0 0 16 16">
-                        <path
-                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"></path>
-                    </svg>
-                </a>
-                <br></br>
-                <a
-                    href="mailto:adres@email?&amp;subject=E-mail%20from%20website&amp;body=Hi%20Joanna,%20"
-                    aria-label="mailto">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
-                         className="bi bi-envelope-at" viewBox="0 0 16 16">
-                        <path
-                            d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"></path>
-                        <path
-                            d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"></path>
-                    </svg>
-                </a>
+                <p>
+                    <a
+                        href="mailto:marta.kasprzyk5@gmail.com?&amp;subject=Kontakt%20ze%20strony&amp;body=Dzień%20dobry%20Pani%20Marto,%20"
+                        aria-label="mailto" className="text-decoration-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="64px" width="64px" viewBox="0 -960 960 960"
+                             fill="currentColor">
+                            <path
+                                d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
+                        </svg>
+                        &emsp;
+                        marta.kasprzyk5@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+48514720958" aria-label="phone" className="text-decoration-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="64px" viewBox="0 -960 960 960" width="64px"
+                             fill="currentColor">
+                            <path
+                                d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/>
+                        </svg>
+                        &emsp;
+                        +48 514 720 958
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/marta-kasprzyk-648540150/" target="_blank"
+                       rel="noopener noreferrer" className="text-decoration-none">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"
+                             className="linkedin-icon" height="64px" width="64px"/>
+                        &emsp;
+                        LinkedIn
+                    </a>
+                </p>
             </div>
-
-            <br></br>
-
-            <div className="mb-3">
-                <label htmlFor="exampleFormControlInput1" className="form-label">Email</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1"
-                       placeholder="name@example.com"/>
-            </div>
-            <div className="mb-3">
-                <label htmlFor="exampleFormControlInputTitle" className="form-label">Tytuł</label>
-                <input type="text" className="form-control" id="exampleFormControlInputTitle"/>
-            </div>
-            <div className="mb-3">
-                <label htmlFor="exampleFormControlTextarea1" className="form-label">Treść</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1"></textarea>
-            </div>
-            <button type="submit" className="btn btn-light">Wyślij</button>
-
         </>
     )
+}
+
+function contactForm() {
+    return (<>
+        <div className="mb-3">
+            <label htmlFor="exampleFormControlInput1" className="form-label">Email</label>
+            <input type="email" className="form-control" id="exampleFormControlInput1"
+                   placeholder="name@example.com"/>
+        </div>
+        <div className="mb-3">
+            <label htmlFor="exampleFormControlInputTitle" className="form-label">Tytuł</label>
+            <input type="text" className="form-control" id="exampleFormControlInputTitle"/>
+        </div>
+        <div className="mb-3">
+            <label htmlFor="exampleFormControlTextarea1" className="form-label">Treść</label>
+            <textarea className="form-control" id="exampleFormControlTextarea1"></textarea>
+        </div>
+        <button type="submit" className="btn btn-light">Wyślij</button>
+    </>);
 }

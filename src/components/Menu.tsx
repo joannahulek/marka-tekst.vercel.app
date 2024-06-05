@@ -49,8 +49,8 @@ export default function Menu(){
                                onClick={() => handleSelect('#contact')}>Kontakt</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" href="tel:+48123456789"
-                               aria-disabled="true">tel:+48123456789</a>
+                            <a className="nav-link disabled" href="tel:+48514720958"
+                               aria-disabled="true">tel:+48514720958</a>
                         </li>
                     </ul>
                 </div>

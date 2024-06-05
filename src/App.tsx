@@ -8,8 +8,7 @@ import Copywriting from "./components/Copywriting";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Alert from "./components/Alert";
-
+import contactData from "./components/content/contactData.json"
 const App: React.FC = () => {
 
     const [menuHTML, activeTab] = Menu();
@@ -23,10 +22,9 @@ const App: React.FC = () => {
                 {activeTab === '#about' && <div id="about"><About/></div>}
                 {activeTab === ('#copywriting') && <div id="copywriting"><Copywriting/></div>}
                 {activeTab === '#portfolio' && <div id="portfolio"><Portfolio/></div>}
-                {activeTab === '#contact' && <div id="contact"><Contact/></div>}
+                {activeTab === '#contact' && <div id="contact"><Contact /></div>}
             </div>
             <Footer/>
-            <Alert/>
         </Container>
     );
 }
