@@ -15,8 +15,8 @@ export default function Menu(){
     }, []);
 
     return [(
-        <nav className="navbar navbar-expand-lg">
-            <div className="container-fluid">
+        <nav className="navbar fixed-top navbar-expand-lg bg-white">
+            <div className="container container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
                         aria-label="Toggle navigation">

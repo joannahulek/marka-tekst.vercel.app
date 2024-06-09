@@ -18,11 +18,11 @@ const App: React.FC = () => {
             {menuHTML}
             <Hero/>
             <div className="container">
-                {activeTab === '#marka' && <div id="marka"><MarKa/></div>}
-                {activeTab === '#about' && <div id="about"><About/></div>}
-                {activeTab === ('#copywriting') && <div id="copywriting"><Copywriting/></div>}
-                {activeTab === '#portfolio' && <div id="portfolio"><Portfolio/></div>}
-                {activeTab === '#contact' && <div id="contact"><Contact /></div>}
+                {activeTab === '#marka' && <div className="web-content" id="marka"><MarKa/></div>}
+                {activeTab === '#about' && <div className="web-content" id="about"><About/></div>}
+                {activeTab === ('#copywriting') && <div className="web-content" id="copywriting"><Copywriting/></div>}
+                {activeTab === '#portfolio' && <div className="web-content" id="portfolio"><Portfolio/></div>}
+                {activeTab === '#contact' && <div className="web-content" id="contact"><Contact /></div>}
             </div>
             <Footer/>
         </Container>
