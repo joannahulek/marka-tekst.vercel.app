@@ -9,7 +9,7 @@ interface Props{
 export default function Contact(){
     return(
         <>
-            <h2>Marka Tekst Marta Kasprzyk</h2>
+            <h1>Marka Tekst Marta Kasprzyk</h1>
             <div>
                 <p>
                     <a

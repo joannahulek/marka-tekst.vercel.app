@@ -8,7 +8,7 @@ export type SampleItem = {
 }
 
 export default function getSamples(){
-    return [prodSample1, blogSample1, prodSample3]}
+    return [prodSample1, blogSample1, moreSamples]}
 
 const prodSample1: SampleItem ={
     id: 0,
@@ -146,7 +146,7 @@ const blogSample1: SampleItem ={
     </>)
 }
 
-const prodSample3: SampleItem = {
+const moreSamples: SampleItem = {
     id: 3,
     label: "Więcej tekstów",
     collapsed: true,
