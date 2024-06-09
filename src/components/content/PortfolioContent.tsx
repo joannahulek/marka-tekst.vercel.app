@@ -27,7 +27,7 @@ const prodSample1: SampleItem ={
             dziecięcych oraz wózków. Producent dba o bezpieczeństwo dzieci nieprzerwanie od 1984 r., stale ulepszając
             swoje produkty, aby każda podróż była bezpieczna i komfortowa.
         </p>
-        <h4>Maxi Cosi CabrioFix i-sizeMaxi Cosi CabrioFix i-Size -- inwestycja w bezpieczeństwo Twojego dziecka</h4>
+        <h4>Maxi Cosi CabrioFix i-sizeMaxi Cosi CabrioFix i-Size - inwestycja w bezpieczeństwo Twojego dziecka</h4>
         <p>
             Fotelik RWF Maxi Cosi CabrioFix i-Size to model należący do klasy wagowej 0-12 kg, tj. 0+. Jest on
             wyposażony w funkcjonalną wkładkę niemowlęcą, pozwalającą na bezpieczne przewożenie noworodków.
