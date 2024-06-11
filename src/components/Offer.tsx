@@ -38,7 +38,7 @@ const copywritingSeo: OfferItem = {
             Przygotowując treści dokładam wszelkich starań, aby spełniały one nie tylko wymagania Google, ale
             jednocześnie niosły ze sobą rzeczywistą wartość dla użytkownika.
             <br></br>
-            Zależy Ci na wysokiej jakości treściach? Zapraszam do <a href="https://marka-tekst.vercel.app/#contact">KONTAKTU</a>.
+            Zależy Ci na wysokiej jakości treściach? Zapraszam do <a href="https://marka-tekst.vercel.app/#contact" target="_self">KONTAKTU</a>.
         </p>
     </>)
 }
