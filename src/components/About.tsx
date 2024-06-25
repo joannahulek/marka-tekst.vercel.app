@@ -6,7 +6,7 @@ export default function About() {
         <>
             <h1>O mnie</h1>
             <p>
-                Copywritingiem zajmuje się od 2017 r. Przez ten czas stale rozwijam swój warsztat, aby przygotowywane treści były przynosiły realną korzyść dla Twojego biznesu. Teksty są przyjazne dla użytkownika, a jednocześnie zoptymalizowane pod kątem wymagań SEO, co naturalnie wspiera proces pozycjonowania strony internetowej.
+                Copywritingiem zajmuje się od 2017 r. Przez ten czas stale rozwijam swój warsztat, aby przygotowywane treści przynosiły realną korzyść dla Twojego biznesu. Teksty są przyjazne dla użytkownika, a jednocześnie zoptymalizowane pod kątem wymagań SEO, co naturalnie wspiera proces pozycjonowania strony internetowej.
             </p>
             <p>
                 Specjalizuję się w tworzeniu treści, takich jak:

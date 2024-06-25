@@ -119,10 +119,19 @@ const socialMedia: OfferItem = {
 const blogging: OfferItem = {
     id: 'blogging',
     label: 'Prowadzenie bloga',
-    headline: 'tbd...',
+    headline: 'Kompleksowe prowadzenie bloga, wspierającego widoczność Twojej marki w sieci.',
     description: (<>
         <p>
-            kompleksowe, wraz z optymalizacją pod SEO w WP - opisy meta, zajawki, zdjęcia z darmowego stocka, tagi, propozycja tematów wpisów
+            Prowadzenie bloga obejmuje kompleksowe zarządzanie treściami, w tym optymalizację pod kątem SEO. Usługa zawiera:
+            <ul>
+                <li>Tworzenie i publikowanie wysokiej jakości artykułów.</li>
+                <li>Dobór nagłówków wspomagających optymalicacje pod wyszukiwarkę Google.</li>
+                <li>Tworzenie leadów tekstu na stronę główną, bądź media społecznościowe.</li>
+                <li>Dodawanie odpowiednich tagów i kategorii, co ułatwi nawigację i indeksację.</li>
+                <li>Dobór odpowiednich zdjęć z darmowymi licencjami stockowymi.</li>
+                <li>Propozycje tematów wpisów, opartych na analizie słów kluczowych oraz aktualnych trendach rynkowych.</li>
+            </ul>
         </p>
+        <p>Dzięki tym działaniom blog będzie nie tylko atrakcyjny dla czytelników, ale także dobrze widoczny w wynikach wyszukiwania, co przełoży się na większy ruch i zainteresowanie ze strony potencjalnych klientów.</p>
     </>)
 }
