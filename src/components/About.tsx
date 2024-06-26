@@ -1,4 +1,3 @@
-import {Certificate} from "node:crypto";
 import Certificates from "./Certificates";
 
 export default function About() {

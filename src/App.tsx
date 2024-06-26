@@ -1,14 +1,13 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import { Container } from 'react-bootstrap';
 import Menu from "./components/Menu";
 import Hero from "./components/Hero";
-import MarKa from "./components/MarKa";
 import About from "./components/About";
 import Copywriting from "./components/Copywriting";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import contactData from "./components/content/contactData.json"
+// import contactData from "./components/content/contactData.json"
 const App: React.FC = () => {
 
     const [menuHTML, activeTab] = Menu();
@@ -18,7 +17,6 @@ const App: React.FC = () => {
             {menuHTML}
             <Hero/>
             <div className="container">
-                {activeTab === '#marka' && <div className="web-content" id="marka"><MarKa/></div>}
                 {activeTab === '#about' && <div className="web-content" id="about"><About/></div>}
                 {(activeTab === '#copywriting' ||
                     activeTab === '#copywriting-seo' ||

@@ -48,4 +48,3 @@ function collapsedSample(sample: SampleItem) {
         </div>
     </div>;
 }
-

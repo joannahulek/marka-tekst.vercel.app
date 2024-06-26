@@ -1,3 +1,7 @@
+/* contact details need to be clearly separated from code - to easy maintain them.
+The idea, is to import them from contactData.json
+Did they needed to be onboarded in props here? Or just call simply from JSON?
+
 interface Props{
     company:string []
     mail:string [][]
@@ -6,6 +10,8 @@ interface Props{
     address:string[]
     ceidg:string[]
 }
+*/
+
 export default function Contact(){
     return(
         <>
