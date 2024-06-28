@@ -4,7 +4,7 @@ export default function Portfolio() {
     const samples = getSamples()
     return (
         <>
-            <div className="accordion" id="accordionExample">
+            <div className="accordion shadow-sm" id="accordionExample">
                 {samples.map((sample) => (
                     <>
                         {sample.collapsed ? collapsedSample(sample) : nonCollapsedSample(sample)}
@@ -21,7 +21,7 @@ function nonCollapsedSample(sample: SampleItem) {
             <button className="accordion-button" type="button" data-bs-toggle="collapse"
                     data-bs-target={"#collapse" + sample.id} aria-expanded="true"
                     aria-controls={"collapse" + sample.id}>
-                <h3>{sample.label}</h3>
+                <h4>{sample.label}</h4>
             </button>
         </div>
         <div id={"collapse"+sample.id} className="accordion-collapse collapse show"
@@ -38,7 +38,7 @@ function collapsedSample(sample: SampleItem) {
         <div className="accordion-header">
             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target={"#collapse"+sample.id} aria-expanded="false" aria-controls={"collapse"+sample.id}>
-                <h3>{sample.label}</h3>
+                <h4>{sample.label}</h4>
             </button>
         </div>
         <div id={"collapse"+sample.id} className="accordion-collapse collapse" data-bs-parent="#accordionExample">
