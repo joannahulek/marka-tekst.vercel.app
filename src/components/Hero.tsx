@@ -12,7 +12,7 @@ export default function Hero(){
                     </div>
                 </div>
                 <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-sm">
-                    <img className="d-block mx-lg-auto img-fluid" src={heroImage} alt="Pablo Stanley, lummi.ai" loading="lazy"/>
+                    <img className="d-block mx-lg-auto img-fluid" src={heroImage} alt="MarKa Tekst - workspace" title="Pablo Stanley, lummi.ai" loading="lazy"/>
                 </div>
             </div>
         </div>
