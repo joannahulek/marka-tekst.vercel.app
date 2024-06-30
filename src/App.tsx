@@ -10,6 +10,8 @@ import Footer from "./components/Footer";
 // import contactData from "./components/content/contactData.json"
 const App: React.FC = () => {
 
+    //navigation handling should be moved here
+
     const [menuHTML, activeTab] = Menu();
 
     return (
