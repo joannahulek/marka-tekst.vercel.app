@@ -38,8 +38,7 @@ const copywritingSeo: OfferItem = {
             Przygotowując treści dokładam wszelkich starań, aby spełniały one nie tylko wymagania Google, ale
             jednocześnie niosły ze sobą rzeczywistą wartość dla użytkownika.
             <br></br>
-            Zależy Ci na wysokiej jakości treściach? Zapraszam do <a href="mailto:marta.kasprzyk5@gmail.com?&amp;subject=Kontakt%20ze%20strony&amp;body=Dzień%20dobry%20Pani%20Marto,%20"
-                                                                     aria-label="mailto">KONTAKTU</a>.
+            Zależy Ci na wysokiej jakości treściach? Zapraszam do <a href="https://marka-tekst.vercel.app/#contact">KONTAKTU</a>.
         </p>
     </>)
 }
