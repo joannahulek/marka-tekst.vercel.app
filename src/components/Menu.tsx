@@ -1,20 +1,14 @@
-import React, {useState, useEffect} from "react";
-export default function Menu(){
+import React from "react";
+import { useNav } from "../NavContext";
 
-    const [activeTab, setActiveTab] = useState('#about');
+export default function Menu() {
+    const { activeTab, setActiveTab } = useNav();
 
     const handleSelect = (selectedTab: string) => {
         setActiveTab(selectedTab);
     };
 
-    useEffect(() => {
-        const hash = window.location.hash;
-        if (hash) {
-            setActiveTab(hash);
-        }
-    }, []);
-
-    return [(
+    return (
         <nav className="navbar fixed-top navbar-expand-lg bg-white">
             <div className="container container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,15 +23,15 @@ export default function Menu(){
                                onClick={() => handleSelect('#marka')}>Strona Główna</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#about"
+                            <a className={`nav-link ${activeTab === '#about' ? 'active' : ''}`} aria-current="page" href="#about"
                                onClick={() => handleSelect('#about')}>O mnie</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#copywriting"
+                            <a className={`nav-link ${activeTab === '#copywriting' ? 'active' : ''}`} href="#copywriting"
                                onClick={() => handleSelect('#copywriting')}>Copywriting</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#portfolio"
+                            <a className={`nav-link ${activeTab === '#portfolio' ? 'active' : ''}`} href="#portfolio"
                                onClick={() => handleSelect('#portfolio')}>Portfolio</a>
                         </li>
                         <li className="nav-item visually-hidden">
@@ -45,7 +39,7 @@ export default function Menu(){
                                href="https://www.linkedin.com/in/marta-kasprzyk-648540150/">Blog</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact"
+                            <a className={`nav-link ${activeTab === '#contact' ? 'active' : ''}`} href="#contact"
                                onClick={() => handleSelect('#contact')}>Kontakt</a>
                         </li>
                         <li className="nav-item">
@@ -56,5 +50,5 @@ export default function Menu(){
                 </div>
             </div>
         </nav>
-    ), activeTab]
+    );
 }
