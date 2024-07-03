@@ -1,5 +1,5 @@
 import React from "react";
-import { useNav } from "../NavContext";
+import { useNav } from "./helpers/NavContext";
 
 export default function Menu() {
     const { activeTab, setActiveTab } = useNav();

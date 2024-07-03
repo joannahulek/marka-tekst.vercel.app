@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from 'react-bootstrap';
-import {NavProvider, useNav} from "./NavContext";
+import {NavProvider, useNav} from "./components/helpers/NavContext";
 import Menu from "./components/Menu";
 import Hero from "./components/Hero";
 import About from "./components/About";

@@ -1,5 +1,5 @@
 import heroImage from "./images/Pablo_Stanley-lummi.ai.png"
-import {useNav} from "../NavContext";
+import {useNav} from "./helpers/NavContext";
 
 export default function Hero(){
     const { setActiveTab } = useNav();
