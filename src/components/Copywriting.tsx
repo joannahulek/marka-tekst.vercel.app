@@ -1,4 +1,4 @@
-import Offer, {OfferItem} from "./Offer";
+import Offer, {OfferItem} from "./content/Offer";
 
 export default function Copywriting() {
     const items: OfferItem[] = Offer()
