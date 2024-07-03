@@ -1,12 +1,12 @@
 import React, {useState} from "react";
-import content_marketing_1 from "./images/certificates/akademia_parp/content_marketing/1.png";
-import content_marketing_2 from "./images/certificates/akademia_parp/content_marketing/2.png";
-import marketing_internetowy_1 from "./images/certificates/akademia_parp/marketing_internetowy/1.png";
-import marketing_internetowy_2 from "./images/certificates/akademia_parp/marketing_internetowy/2.png";
-import social_media_zaw_1 from "./images/certificates/akademia_parp/social_media_zaw/1.png";
-import social_media_zaw_2 from "./images/certificates/akademia_parp/social_media_zaw/2.png";
-import social_media_w_biznesie_1 from "./images/certificates/akademia_parp/social_media_w_biznesie/1.png";
-import social_media_w_biznesie_2 from "./images/certificates/akademia_parp/social_media_w_biznesie/2.png";
+import content_marketing_1 from "../images/certificates/akademia_parp/content_marketing/1.png";
+import content_marketing_2 from "../images/certificates/akademia_parp/content_marketing/2.png";
+import marketing_internetowy_1 from "../images/certificates/akademia_parp/marketing_internetowy/1.png";
+import marketing_internetowy_2 from "../images/certificates/akademia_parp/marketing_internetowy/2.png";
+import social_media_zaw_1 from "../images/certificates/akademia_parp/social_media_zaw/1.png";
+import social_media_zaw_2 from "../images/certificates/akademia_parp/social_media_zaw/2.png";
+import social_media_w_biznesie_1 from "../images/certificates/akademia_parp/social_media_w_biznesie/1.png";
+import social_media_w_biznesie_2 from "../images/certificates/akademia_parp/social_media_w_biznesie/2.png";
 
 interface Certificate {
     url:string

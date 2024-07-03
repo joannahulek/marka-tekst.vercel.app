@@ -1,4 +1,4 @@
-import Certificates from "./Certificates";
+import Certificates from "./content/Certificates";
 
 export default function About() {
     return (
